@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="../assets/img/71633_pinterest_favicon_icon.png">
+    <title>Login</title>
+</head>
+<body>
+ <div>
+    <header>
+        <a href="../inicio.html"><h3>Clonterest</h3></a>
+  
+        <nav>
+          <ul>
+            <li><a href="#">Info</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Empresa</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Blog</a></li>
+          </ul>
+  
+          <div class="buttons">
+              <button class="login" onclick="window.location.href='../login/login.html'">Iniciar Sesion</button>
+            
+              <button class="signup" onclick="window.location.href='../registro/registro.html'">Registrarse</button>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div class="contenedor"col="12">
+    <div class="login-box">
+        <img src="data:image/png;base64,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" alt="">
+        <h1>Bienvenido a Clonterest</h1>
+        <form>
+       
+            <label for=""></label>
+            <input type="email" name="u" placeholder="Correo" 
+          <label for="password"></label>
+          <input type="password" name="c" placeholder="Contraseña">
+          <a href="#">¿Olvidaste tu Contraseña?</a><br>
+          <input type="submit" value="Iniciar Sesion"
+            onclick="login(this.form)">
+            <p>o</p>
+            <input type="submit2" value="Continuar con Facebook"
+            onclick="login(this.form)">
+            <input type="button3" value="Continuar con Google"
+            onclick="login(this.form)">
+       <!-- <hr>
+          <a href="#">Perdiste tu contraseña?</a><br>
+          <a href="../registro/registro.html">No tienes una cuenta Registrate?</a> -->
+        </form>
+        <script src="./app.js"></script>
+      </div>
+    </div>
+    </form>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>

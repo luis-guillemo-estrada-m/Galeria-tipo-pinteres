@@ -1,0 +1,296 @@
+/* Registro*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 28px 15px 24px;
+  }
+  
+  header h3 {
+    color: #e60023;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  header nav ul li {
+    padding: 16px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 24px;
+  }
+  
+  header nav .buttons button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 12px;
+    border-radius: 24px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  header nav .buttons .login {
+    color: #fff;
+    background: #e60023;
+  }
+  
+  header nav .buttons .signup {
+    margin-left: 16px;
+    background: #efefef;
+  }
+
+.body {
+
+    background-color:#5c5c5c;
+    
+    
+    
+  }
+
+  body{
+    padding-bottom: 40px;
+    background-color:#5c5c5c;
+    background-image: url('https://s.pinimg.com/images/facebook_share_image.png');
+  }
+  
+  .container {
+    display: flex;  
+    background-image: url("https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg");
+    width: 25%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #006400;
+  
+  }
+  
+  @media only screen and (min-width: 320px) {
+    .container {
+      background-image: url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg");
+      background-color: #0000ff;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container {
+      background-image: url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/594a1ced5bafe85dfd3c9869/gato-romano_0.jpg");
+      background-color: #dc143c;
+    }
+  }
+   
+  @media only screen and (min-width:1020px) {
+      .container{
+          background-image: url("https://imagenes.20minutos.es/files/article_amp/uploads/2020/05/08/gato-siames.jpeg");
+          background-color: #696969;
+      }
+  }
+
+  img{
+      width:40px;
+  }
+  .button{
+    color: black;
+    background: #f8faff;
+    border-radius:30px;
+  }
+
+  .registro-box {
+    border-radius: 10%;
+    width: 500px;
+    height: 630px;
+    color:black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -45%);
+    box-sizing: border-box;
+    padding: 2px ;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: -apple-system, Ubuntu, Arial, sans-serif;
+    border:#000 solid 1px;
+  }
+  
+  .registro-box h1 {
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .registro-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .registro-box input {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .registro-box input[type="text"], .registro-box input[type="nombre de usuario"] {
+    border: black solid 2px;
+    border-radius:30px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    width:400px;
+  }
+
+  .registro-box input[type="text"], .registro-box input[type="email"] {
+    border: black solid 2px;
+    border-radius:30px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    width:400px;
+  }
+  
+  .registro-box input[type="text"], .registro-box input[type="password"] {
+    border: black solid 2px;
+    border-radius:30px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    width:400px;
+  }
+
+  .registro-box input[type="text"], .registro-box input[type="password"] {
+    border: black solid 2px;
+    border-radius:30px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    width:400px;
+  }
+  
+  .registro-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #e60023;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 300px;
+}
+.registro-box input[type="submit"]:hover {
+  cursor: pointer;
+  background:#d50c22;
+  color: #000;
+}
+
+.registro-box input[type="submit2"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1877f2;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+.registro-box input[type="button3"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f8faff;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.registro-box button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(0, 216, 0);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  .registro-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .registro-box a:hover {
+    color: #fff;
+  }
