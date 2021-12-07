@@ -1,7 +1,7 @@
 function registro(form){
     if (form.u.value=="") {
         if (form.c.value=="") {
-            location.href='../index.html';
+            location.href='../gallery/index.html';
         } else {
             alert("Contraseña Incorrecta");
         }
